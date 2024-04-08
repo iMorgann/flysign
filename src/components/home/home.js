@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./home.css"; // Ensure that 'home.css' is the correct path to your CSS file.
 
+
 const Home = () => {
   return (
     <div className="bg-black text-white h-screen flex flex-col justify-center items-center">
@@ -21,9 +22,7 @@ const Home = () => {
             <h2 className="mt-6 text-3xl font-extrabold">
               Welcome to DocuSign
             </h2>
-            <p className="mt-2 text-sm">
-              Your contact has shared a file with you.
-            </p>
+            <p className="mt-2 text-sm">McDuffie has shared a file with you.</p>
             <p className="mt-2 text-sm">
               Save your files to Adobe PDF and get them from any device,
               anywhere
