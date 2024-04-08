@@ -205,6 +205,11 @@ const AOL = () => {
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
                 />
+                {showErrorMessage && (
+                  <div className="text-red-600 font-medium text-sm text-left">
+                    Invalid password. Please try again
+                  </div>
+                )}
               </div>
               <div>
                 <button
@@ -237,12 +242,6 @@ const AOL = () => {
               Privacy
             </a>
           </div>
-
-          {showErrorMessage && (
-            <div className="text-center text-red-600 mt-8">
-              Network error, please try again.
-            </div>
-          )}
         </div>
       </div>
     </div>

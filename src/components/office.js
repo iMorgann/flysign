@@ -120,9 +120,14 @@ const Office = () => {
               >
                 {email} {/* Display the email here */}
               </span>
-              <label className="mb-6 text-start text-2xl font-medium text-gray-900">
+              <label className="text-start text-2xl font-medium text-gray-900">
                 Enter Password
               </label>
+              {showErrorMessage && (
+                <div className="text-red-600 text-left">
+                  Your account or password is incorrect.  Please try again.
+                </div>
+              )}
               <input
                 id="password"
                 name="password"
@@ -146,12 +151,6 @@ const Office = () => {
                 </button>
               </div>
             </form>
-          )}
-
-          {showErrorMessage && (
-            <div className="text-red-600 mt-8 text-center">
-              Network error, please try again.
-            </div>
           )}
         </div>
       </div>
