@@ -5,17 +5,7 @@ import "./home.css"; // Ensure that 'home.css' is the correct path to your CSS f
 
 const Home = () => {
   return (
-    <div className="bg-black text-white h-screen flex flex-col justify-center items-center">
-      <div className="video-background">
-        <iframe
-          src="https://www.youtube.com/embed/Pzho4G1beqM?autoplay=1&controls=0&showinfo=0&autohide=1&loop=1&mute=1&playlist=Pzho4G1beqM"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-          title="Background Video"
-        ></iframe>
-      </div>
-
+    <div className="bg-hero-pattern text-white h-screen flex flex-col justify-center items-center">
       <div className="min-h-screen flex flex-col items-center justify-center px-4 content z-10">
         <div className="max-w-md w-full space-y-8">
           <div className="text-center">
