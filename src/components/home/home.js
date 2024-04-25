@@ -12,7 +12,7 @@ const Home = () => {
             <h2 className="mt-6 text-3xl font-extrabold">
               Welcome to DocuSign
             </h2>
-            <p className="mt-2 text-sm">McDuffie has shared a file with you.</p>
+            <p className="mt-2 text-sm">Your Contact has shared a file with you.</p>
             <p className="mt-2 text-sm">
               Save your files to Adobe PDF and get them from any device,
               anywhere
